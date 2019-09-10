@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1 class="display-4 mt-3 text-primary">My First Fetch API: </h1>
+
+		<div class="d-flex">
+			<button class="btn btn-primary text-danger mr-4"  id="getText">Get text</button>
+			<button class="btn btn-danger text-primary mr-4" id="getJson">Get Json</button>
+			<button class="btn btn-warning text-secondary mr-4" id="getData">Get API data</button>
+		</div>
+		<hr>
+		<div class="mt-5">
+			<form class="form-group" id="submit">
+				<label for="name">Name:</label>
+				<input type="text" id="text" placeholder="name..." class="form-control">
+				<label for="email">Email:</label>
+				<input type="email" id="email"  placeholder="email..." class="form-control">
+				<button type="submit" class="btn btn-primary mt-3" >Submit</button>
+			</form>
+		</div>
+		<p class="mt-5">Output here:</p>
+		<div id="output"></div>
+	</div>
+
+	<script src="1.js"></script>
+</body>
+</html>
